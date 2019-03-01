@@ -1,0 +1,19 @@
+body{
+   background-color:pink;
+}
+nav{
+    text-transform: uppercase;
+    font-family: PT Sans Narrow;
+    font-weight:bold;
+}
+.nav-link:hover{
+    font-style: italic;
+    background-color:purple;
+}
+header{
+    height: 600px;
+    width: 100%;
+    background-image: url("cover.jpeg");
+    background-size:cover;
+    text-align: center;
+}
