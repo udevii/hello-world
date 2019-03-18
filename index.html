@@ -1,44 +1,149 @@
 <!DOCTYPE html>
 <html>
 
-
-<head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css" type="text/css" />
+<head> 
+  <title> My Blog </title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" type="text/css"/>
+  <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="#">Features</a>
-      <a class="nav-item nav-link" href="#">Pricing</a>
-      <a class="nav-item nav-link" href="#" >Disabled</a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Company Name</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">About Us</a> <span class="sr-only">(current)</span>
+        <a class="nav-item nav-link" href="#">Services</a>
+        <a class="nav-item nav-link" href="#">Pricing</a>
+        <a class="nav-item nav-link" href="#">Contact</a>
+      </div>
     </div>
+  </nav>
+
+
+  <header class="d-flex align-items-center">
+    <div class="container">
+      <h1> Chili's </h1>
+      <p> Welcome to Chili's </p>
+      <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" class="btn btn-info">Info</button>
+    </div>
+
+  </header>
+
+  <!-- Services -->
+  <section>
+    <div class="services container">
+      <h1>Services</h1>
+      <p>Our company offers an array of services</p>
+      <hr>
+      <div class="row">
+        <div class="col-md-6">
+          <i class="fas fa-desktop"></i>
+          <span><strong>Web Design</strong></span>
+          <p>We offer web design.</p>
+        </div>
+        <div class="col-md-6">
+          <i class="fas fa-desktop"></i>
+          <span><strong>Mobile Applications</strong></span>
+          <p>We create mobile applications for companies.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <i class="fas fa-desktop"></i>
+          <span><strong>Database</strong></span>
+          <p>We offer database services.</p>
+        </div>
+        <div class="col-md-6">
+          <i class="fas fa-desktop"></i>
+          <span><strong>Consulting</strong></span>
+          <p>We offer consulting services to business.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container team">
+    <h1>Team</h1>
+    <div class="row">
+      <div class="col-mid-3 blue">
+         <img src="https://cdn.pixabay.com/photo/2014/04/03/10/32/businessman-310819_960_720.png"></img>
+           <h4>Jane Doe</h4>    
+           <h6>CEO</h6>
+           <p>jfbvdkfjbvdkjfbvd jhfbvkfjdhbdskhfbvjsdfhvsjdh iydgfisdghbfcvkdjfkgsdjfk</p>
+      </div>
+      
+      <div class="col-mid-3 normie">
+          <img src="https://cdn.pixabay.com/photo/2014/04/03/10/32/user-310807_960_720.png"></img>        
+            <h4>John Doe</h4>    
+            <h6>CFO</h6>
+            <p>jfbvdkfjbvdkjfbvd jhfbvkfjdhbdskhfbvjsdfhvsjdh iydgfisdghbfcvkdjfkgsdjfk</p>
+      </div>
+      
+      <div class="col-mid-3 harold">
+          <img src="https://cdn.pixabay.com/photo/2014/04/03/10/32/user-310807_960_720.png"></img>
+            <h4>Jane Roe</h4>    
+            <h6>COO</h6>
+            <p>jfbvdkfjbvdkjfbvd jhfbvkfjdhbdskhfbvjsdfhvsjdh iydgfisdghbfcvkdjfkgsdjfk</p>
+      </div>
+     
+      <div class="col-mid-3 blue">
+          <img src="https://cdn.pixabay.com/photo/2014/04/03/10/32/user-310807_960_720.png"></img>
+            <h4>Joe Bloggs</h4>    
+            <h6>CIO</h6>
+            <p>jfbvdkfjbvdkjfbvd jhfbvkfjdhbdskhfbvjsdfhvsjdh iydgfisdghbfcvkdjfkgsdjfk</p>
+      </div>
   </div>
-</nav>
-<head>
-    
-    
-    <h1> Company Name </h1>
-    <p> Welcome to Chili's </p>
-    <button type="button" class="btn btn-danger">Danger</button>
-    <button type="button" class="btn btn-warning">Warning</button></button>
-    
-</head>
+  
+<!-- Contact -->
+<section>
+  <div class="container contact">
+    <h1>Contact</h1>
+    <div class="row"
+      <div class="col-mid-6">
+        <div class="input-group input-group-lg">
+          <div class="input-group-prepend">
+            <i class="fas fa-user"></i>
+          </div>
+          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+        </div>
+        <div class="input-group input-group-lg">
+          <div class="input-group-prepend">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+        </div>
+        <div class="input-group input-group-lg">
+          <div class="input-group-prepend">
+            <i class="fas fa-phone"></i>
+          </div>
+          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6">
+        <div class="input-group">
+          <textarea cols="80" rows="6" class="form-control"></textarea>
+        </div>
+        <button class="btn btn-lg">Submit Your Message</button>
+      </div>
+    </div>  
+</div>
+</section>
+  
+  
 
 
 
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
 

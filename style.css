@@ -16,4 +16,60 @@ header{
     background-image: url("cover.jpeg");
     background-size:cover;
     text-align: center;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+header p{
+    color:#89cff0;
+    font-style:italic;
+}
+header{
+    color:blue;
+}
+.services{
+    text-align: center;
+}
+.services i{
+    font-size: 30px;
+    padding: 25px 20px;
+    color: #fff;
+    background-color: #5bc0de;
+    border-radius: 50%; 
+}    
+.services span{
+    width: 200px;
+    display: inline-block;
+}
+.team{
+    text-align: center;
+}
+.team img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%
+}
+.blue{
+    background-color: purple;
+}
+.normie{
+    background-color: grey;
+}
+.harold{
+    background-color: blue; 
+}
+.contact .input-group{
+    margin-bottom: 25px;
+}
+.contact i{
+    padding: 15px;
+}
+.contact btn{
+    border-radius: 0;
+    width: 100%;
+    font-size: 15px;
+    background-color: #f08080;
+    color: #fff;
+}
+.contact .btn:hover{
+    background-color: #a85959;
+    color: #fff;
 }
